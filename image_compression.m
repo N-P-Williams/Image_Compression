@@ -1,6 +1,6 @@
 clc
 close all
-color = imread('C:\Users\nic\CodeStuff\CS3320\Images\Images\DSC_1355.tif');
+color = imread('C:\Users\nic\CodeStuff\CS3320\Images\Images\DSC_1355.tif'); %Path to image you want to compress
 size(color);
 [rows,cols,hues] = size(color);
 x = color;
